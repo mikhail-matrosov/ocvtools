@@ -4,13 +4,19 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
-../AsyncCamera.cpp 
+../AsyncCamera.cpp \
+../LKSmooth.cpp \
+../LKTracker.cpp 
 
 OBJS += \
-./AsyncCamera.o 
+./AsyncCamera.o \
+./LKSmooth.o \
+./LKTracker.o 
 
 CPP_DEPS += \
-./AsyncCamera.d 
+./AsyncCamera.d \
+./LKSmooth.d \
+./LKTracker.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
